@@ -20,7 +20,7 @@ class ConfirmGoogleCaptcha extends Component {
     }
     render() {
         let { show } = this.state;
-        let { siteKey, baseUrl, languageCode, onMessage, cancelButtonText } = this.props;
+        let { siteKey, baseUrl, languageCode, onMessage, cancelButtonText, modalStyle } = this.props;
         return (
             <Modal
                 useNativeDriver

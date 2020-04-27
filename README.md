@@ -1,5 +1,5 @@
 
-## react-native-google-recaptcha-v2
+## react-native-recaptcha-v2-enhanced
 ## Implement Google recaptcha v2 in React Native (both Android an iOS)
 
 
@@ -7,11 +7,11 @@
 
 1. Insall package
 - Using NPM
-   `npm install react-native-google-recaptcha-v2` 
+   `npm install react-native-recaptcha-v2-enhanced` 
 - Using Yarn
-   `yarn add react-native-google-recaptcha-v2`
+   `yarn add react-native-recaptcha-v2-enhanced`
 2. Import package
-`import ConfirmGoogleCaptcha from 'react-native-google-recaptcha-v2';`
+`import ConfirmGoogleCaptcha from 'react-native-recaptcha-v2-enhanced';`
 
 
 ## Dependencies
@@ -28,7 +28,7 @@
 
 ```javascript
 import React from 'react';
-import ConfirmGoogleCaptcha from 'react-native-google-recaptcha-v2';
+import ConfirmGoogleCaptcha from 'react-native-recaptcha-v2-enhanced';
 const siteKey = 'you_site_key';
 const baseUrl = 'base_url';
 class App extends React.Component  {
@@ -71,7 +71,7 @@ class App extends React.Component  {
 ```
 
 ### Note
-You can `import GoogleReCaptcha from 'react-native-google-recaptcha-v2/GoogleReCaptcha';` to customize UI by yourself 
+You can `import GoogleReCaptcha from 'react-native-recaptcha-v2-enhanced/GoogleReCaptcha';` to customize UI by yourself 
 
 
 ## DEMO
